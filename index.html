@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script type="text/javascript" src="./js/jquery.js"></script>
+        <script type="text/javascript" src="./js/colorfader.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                color = new ColorFader($("body"), "background-color");
+                window.setInterval(function(){
+                    var r = Math.round((Math.random() * 255));
+                    var g = Math.round((Math.random() * 255));
+                    var b = Math.round((Math.random() * 255));
+                    color.fadeTo.call(color, {"r":r, "g":g, "b":b});
+                }, color.delay);
+                //color.fadeTo({"r":0, "g":0, "b":0});
+            });
+        </script>
+        <style type="text/css">
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+    </body>
+</html>

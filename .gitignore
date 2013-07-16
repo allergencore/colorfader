@@ -1,0 +1,8 @@
+###################
+# HTML + CSS + JS
+# within NP++
+# (excluding NPPbackup)
+###################
+*/nppBackup
+*.bak
+*.zip
