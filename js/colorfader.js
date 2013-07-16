@@ -1,4 +1,4 @@
-function ColorFader(elem, prop) {
+﻿function ColorFader(elem, prop) {
     this.jq = $(elem);
     this.cssProp = prop;
     this.delay = 500;
