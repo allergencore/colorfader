@@ -35,8 +35,8 @@
             var cc = context.parse(context.jq.css(context.cssProp));
             if (cc.r == color.r) {
                 window.clearInterval(rt);
-                console.log("R stopped");
-                console.log(Date());
+                //console.log("R stopped");
+                //console.log(Date());
                 rr = true;
                 return;
             }
@@ -47,8 +47,8 @@
             var cc = context.parse(context.jq.css(context.cssProp));
             if (cc.g == color.g) {
                 window.clearInterval(gt);
-                console.log("G stopped");
-                console.log(Date());
+                //console.log("G stopped");
+                //console.log(Date());
                 gr = true;
                 return;
             }
@@ -59,8 +59,8 @@
             var cc = context.parse(context.jq.css(context.cssProp));
             if (cc.b == color.b) {
                 window.clearInterval(bt);
-                console.log("B stopped");
-                console.log(Date());
+                //console.log("B stopped");
+                //console.log(Date());
                 br = true;
                 return;
             }
